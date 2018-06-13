@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
 	print "Building model ..."
 	model = NseLstmAt(train_generator.n_voc_src, train_generator.n_voc_tgt, n_units, gpu, train_generator.vocab_tgt)
-	model = LstmLstmAt(train_generator.n_voc_src, train_generator.n_voc_tgt, n_units, gpu, train_generator.vocab_tgt)
+	# model = LstmLstmAt(train_generator.n_voc_src, train_generator.n_voc_tgt, n_units, gpu, train_generator.vocab_tgt)
 	print "model: ", model
 	model.init_optimizer()
 	max_epch = 0
