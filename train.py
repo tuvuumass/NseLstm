@@ -82,7 +82,7 @@ if __name__ == '__main__':
 	print "model: ", model
 	model.init_optimizer()
 	max_epch = 0
-	max_tr = 0
+	max_train = 0
 	max_dev = 0
 	max_test = 0
 	print "Training ..."
