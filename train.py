@@ -13,7 +13,7 @@ from NseLstm import NseLstm
 
 if __name__ == '__main__':
 
-	dir_path = '/data/'
+	dir_path = 'path-to-data/'
 	gpu = -1
 	n_epochs   = 100   # number of epochs
 	n_units   = 300  # number of units per layer
